@@ -21,7 +21,7 @@ plt.xlim((min(x),max(x)))
 plt.ylim((min(y),max(y)))
 
 #设置坐标轴
-plt.xlabel('c/$mol\cdot L^{-1}$')
-plt.ylabel('A')
-plt.savefig('fig.jpg')
+plt.xlabel(r'$\mathit{c} / \mathrm{ mol\cdot L^{-1}}$')
+plt.ylabel(r'$A$')
+#plt.savefig('fig.jpg') #保存图片
 plt.show()
