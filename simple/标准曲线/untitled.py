@@ -11,7 +11,7 @@ print('y={:.3e}x {:+.3e}'.format(reg.slope,reg.intercept),end=' \t')
 print("R^2=%.5f" % np.square(reg.rvalue))
 
 #绘制散点
-plt.scatter(x,y)
+plt.scatter(x,y,clip_on=0)
 #绘制回归直线
 predict=[i*reg.slope+reg.intercept for i in x]
 plt.plot(x,predict,linewidth=3)
