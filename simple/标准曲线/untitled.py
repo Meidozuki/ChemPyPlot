@@ -17,11 +17,11 @@ predict=[i*reg.slope+reg.intercept for i in x]
 plt.plot(x,predict,linewidth=3)
 
 #设定坐标范围
-plt.xlim((min(x),max(x)))
-plt.ylim((min(y),max(y)))
+plt.xlim(left=min(x))
+plt.ylim(bottom=min(y))
 
 #设置坐标轴
 plt.xlabel(r'$\mathit{c} / \mathrm{ mol\cdot L^{-1}}$')
 plt.ylabel(r'$A$')
-#plt.savefig('fig.jpg') #保存图片
+plt.savefig('fig.jpg') #保存图片
 plt.show()
