@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\coding\OCSR
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+-- Found OpenCV 4.5.3 in D:/coding/OCSR/3Party/opencv/x64/mingw/lib
+-- You might need to add D:/coding/OCSR/3Party/opencv/x64/mingw/bin to your PATH to be able to run your applications.
+D:/coding/OCSR/3Party/opencv/x64/mingw/lib
+D:/coding/OCSR/3Party/opencv/x64/mingw/bin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/coding/OCSR/cmake-build-debug
