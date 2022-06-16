@@ -23,4 +23,5 @@ plt.plot(t,lgp,label='measure')
 plt.plot(t,pred,label='pred')
 plt.plot(t,real,label='real')
 plt.legend()
+plt.savefig('fig.jpg') #保存图片
 plt.show()
